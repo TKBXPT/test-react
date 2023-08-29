@@ -1,0 +1,39 @@
+/* Carrusel.css */
+.carrusel-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carrusel-item {
+    padding-bottom: 5rem !important;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carrusel-item img {
+    
+    width: 100%;
+    height: auto;
+    border-bottom: 10px solid transparent; 
+  }
+  
+
+  .carousel.carousel-slider .control-dots .dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background: #ccc;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.15s ease-in-out;
+  }
+  
+  .carousel.carousel-slider .control-dots .dot.selected {
+    opacity: 1;
+  }

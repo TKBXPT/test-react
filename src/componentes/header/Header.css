@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; 
+  padding: 40px 0; 
+}
+
+.nav-section {
+  margin: 0 150px; 
+  color: #4E4E4E;
+  cursor: pointer;
+}
+
+.nav-logo {
+  text-align: center;
+  color: #4E4E4E;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

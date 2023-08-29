@@ -1,0 +1,30 @@
+.image-with-text-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-content {
+    position: relative;
+    left: -20px; 
+  }
+  
+  .image-content img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+  
+  .text-overlay {
+    padding: 20px;
+    color: #4E4E4E;
+    text-align: center;
+  }
